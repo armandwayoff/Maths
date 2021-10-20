@@ -1,3 +1,3 @@
-# maths
+# Mathématiques π
 
-Mathématiques - Exercices classiques: https://www.overleaf.com/read/xtwbsmjttghy
+Le Recueil des Exercices Classiques de Mathématiques: https://www.overleaf.com/read/xtwbsmjttghy
