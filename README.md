@@ -8,6 +8,11 @@ Lien:
 [The Trapped Knight - Numberphile](https://www.youtube.com/watch?v=RGQe8waGJ4w)
 
   ![A316667](https://github.com/armandwayoff/maths/blob/main/A316667%20-%20The%20Trapped%20Knight/A316667.jpeg)
+  
+## Marche aléatoire
+
+![N=10^6](Marche%20aléatoire/N=10^6.png)
+
 ## Courbe remplissante
 
 Lien:
