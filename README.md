@@ -14,7 +14,7 @@ Lien:
 Lien:
 [Hitomezashi Stitch Patterns - Numberphile](https://www.youtube.com/watch?v=JbfhzlMk2eY)
 
-![hitomezashi_50](hitomezashi_50.png)
+![hitomezashi_50](https://github.com/armandwayoff/maths/blob/main/Hitomezashi%20Stitch%20Patterns/hitomezashi_50.png)
 
 ## Marche aléatoire
 
