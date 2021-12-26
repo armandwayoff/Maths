@@ -6,7 +6,7 @@
 * [A316667 - The Trapped Knight](#a316667---the-trapped-knight)
 * [Hitomezashi Stitch Patterns](#hitomezashi-stitch-patterns)
 * [Marche aléatoire](#marche-aléatoire)
-* [Courbe remplissante](#courbe-remplissante)
+* [Space Filling Curves](#space-filling-curves)
 
 ## Le Recueil des Exercices Classiques de Mathématiques
 
