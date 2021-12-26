@@ -1,5 +1,10 @@
 # Mathématiques
 
+## Tables des Matières
+
+* [Le Recueil des Exercices Classiques de Mathématiques](#le-recueil-des-exercices-classiques-de-mathématiques)
+* [A316667 - The Trapped Knight](#A316667---the-trapped-knight)
+
 ## Le Recueil des Exercices Classiques de Mathématiques: https://www.overleaf.com/read/xtwbsmjttghy
 
 ## A316667 - The Trapped Knight
