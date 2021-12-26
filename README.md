@@ -1,11 +1,16 @@
-# Mathématiques
+<h1 style="text-align: center;">Mathématiques</h1>
 
 ## Tables des Matières
 
 * [Le Recueil des Exercices Classiques de Mathématiques](#le-recueil-des-exercices-classiques-de-mathématiques)
-* [A316667 - The Trapped Knight](#A316667---the-trapped-knight)
+* [A316667 - The Trapped Knight](#a316667---the-trapped-knight)
+* [Hitomezashi Stitch Patterns](#hitomezashi-stitch-patterns)
+* [Marche aléatoire](#marche-aléatoire)
+* [Courbe remplissante](#courbe-remplissante)
 
-## Le Recueil des Exercices Classiques de Mathématiques: https://www.overleaf.com/read/xtwbsmjttghy
+## Le Recueil des Exercices Classiques de Mathématiques
+
+Lien: https://www.overleaf.com/read/xtwbsmjttghy
 
 ## A316667 - The Trapped Knight
 
