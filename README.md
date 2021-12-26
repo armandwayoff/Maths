@@ -30,7 +30,7 @@ Lien:
 
 <center><img src="Marche%20aléatoire/N=10^6.png" alt="N=10^6" height="500" align="center"/></center>
 
-## Courbe remplissante
+## Space Filling Curves
 
 Lien:
 [Fractal charm: Space filling curves](https://www.youtube.com/watch?v=RU0wScIj36o)
