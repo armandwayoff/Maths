@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Mathématiques</h1>
+<center><h1>Mathématiques</h1></center>
 
 ## Tables des Matières
 
@@ -17,18 +17,18 @@ Lien: https://www.overleaf.com/read/xtwbsmjttghy
 Lien:
 [The Trapped Knight - Numberphile](https://www.youtube.com/watch?v=RGQe8waGJ4w)
 
-![A316667](https://github.com/armandwayoff/maths/blob/main/A316667%20-%20The%20Trapped%20Knight/A316667.jpeg)
+<center><img src="https://github.com/armandwayoff/maths/blob/main/A316667%20-%20The%20Trapped%20Knight/A316667.jpeg" alt="A316667" width="500" align="center"/></center>
   
 ## Hitomezashi Stitch Patterns
 
 Lien:
 [Hitomezashi Stitch Patterns - Numberphile](https://www.youtube.com/watch?v=JbfhzlMk2eY)
 
-![hitomezashi_50](https://github.com/armandwayoff/maths/blob/main/Hitomezashi%20Stitch%20Patterns/hitomezashi_50.png)
+<center><img src="https://github.com/armandwayoff/maths/blob/main/Hitomezashi%20Stitch%20Patterns/hitomezashi_50.png" alt="hitomezashi_50" width="500" align="center"/></center>
 
 ## Marche aléatoire
 
-![N=10^6](Marche%20aléatoire/N=10^6.png)
+<center><img src="Marche%20aléatoire/N=10^6.png" alt="N=10^6" height="500" align="center"/></center>
 
 ## Courbe remplissante
 
@@ -37,4 +37,4 @@ Lien:
 
 Courbe de Hilbert:
 
-![hilbert5](https://github.com/armandwayoff/maths/blob/main/Space%20Filling%20Curves/hilbert5.jpeg)
+<center><img src="https://github.com/armandwayoff/maths/blob/main/Space%20Filling%20Curves/hilbert5.jpeg" alt="hilbert5" height="500" align="center"/></center>
