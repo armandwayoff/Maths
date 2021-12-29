@@ -35,7 +35,7 @@ mathematiciens = [["Legendre", "Adrien-Marie", "1752", "Paris", "1833", "Paris"]
                   ["Monge", "Gaspard", "1746", "Beaune", "1818", "Paris"],
                   ["Darboux", "Gaston", "1842", "Nîmes", "1917", "Paris"],
                   ["Stone", "Marshall Harvey", "1903", "New York City", "1989", "Madras"],
-                  ["Hermmite", "Charles", "1822", "Dieuze", "1901", "Paris"],
+                  ["Hermite", "Charles", "1822", "Dieuze", "1901", "Paris"],
                   ["Bessel", "Friedrich Wilhelm", "1784", "Minden", "1846", "Königsberg"],
                   ["Wirtinger", "Wilhelm", "1865", "Ybbs an der Donau", "1945", "Ybbs an der Donau"],
                   ["Gronwall", "Thomas Hakon", "1877", "Dylta bruk", "1932", "New York City"],
