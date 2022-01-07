@@ -4,7 +4,7 @@
 
 * [Le Recueil des Exercices Classiques de Mathématiques](#le-recueil-des-exercices-classiques-de-mathématiques)
 * [A316667 - The Trapped Knight](#a316667---the-trapped-knight)
-* [Courbe de Bolzano-Lebesgue](#)
+* [Courbe de Bolzano-Lebesgue](#courbe-de-bolzano-lebesgue)
 * [Diagramme sur les suites et les séries de fonctions](#diagramme-sur-les-suites-et-les-séries-de-fonctions)
 * [Hitomezashi Stitch Patterns](#hitomezashi-stitch-patterns)
 * [Marche aléatoire](#marche-aléatoire)
