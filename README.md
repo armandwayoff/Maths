@@ -23,7 +23,7 @@ Lien:
   
 ## Courbe de Bolzano-Lebesgue
 
-<center><img src="Courbe de Bolzano-Lebesgue/bolzano_lebesgue.png" alt="bolzano_lebesgue" width="500" align="center"/></center>
+<center><img src="Courbe de Bolzano-Lebesgue/bolzano_lebesgue_8.png" alt="bolzano_lebesgue" width="500" align="center"/></center>
 
 ## Diagramme sur les suites et les séries de fonctions
 
