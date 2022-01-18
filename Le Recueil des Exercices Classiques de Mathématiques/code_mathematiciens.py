@@ -40,10 +40,10 @@ mathematiciens = [["Legendre", "Adrien-Marie", "1752", "Paris", "1833", "Paris"]
                   ["Wirtinger", "Wilhelm", "1865", "Ybbs an der Donau", "1945", "Ybbs an der Donau"],
                   ["Gronwall", "Thomas Hakon", "1877", "Dylta bruk", "1932", "New York City"],
                   ["König", "Johann Samuel", "1712", "Büdingen", "1757", "Zuilenstein"],
-                  ["Huygens", "Christian", "1629", "La Haye", "1695", "La Haye"]
+                  ["Huygens", "Christian", "1629", "La Haye", "1695", "La Haye"],
+                  ["Pascal", "Blaise", "1623", "Clermont-Ferrand", "1662", "Paris"]
                   ]
 
 mathematiciens.sort(key=lambda x: x[0])
 for name in mathematiciens:
-    print("\item " + "\\" + "textsc{" + name[0] + "}" + " " + name[1] + " (" + name[3] + ", " + name[2] + " - " + name[5] + ", " + name[4] + ")")
-
+    print("\item " + "\\" + "textcolor{RoyalBlue}{" + "\\" + "textsc{" + name[0] + "}}" + " " + name[1] + " (" + name[3] + ", " + name[2] + " - " + name[5] + ", " + name[4] + ")")
