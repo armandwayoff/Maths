@@ -23,7 +23,7 @@ def f(x, n):
 X = np.arange(-1, 1, 0.01)
 for n in range(len(COEFF)):
     Y = [f(x, n) for x in X]
-    plt.plot(X, Y, label="$L_{n}$")
+    plt.plot(X, Y, label="$L_{" + str(n) + "}$")
 plt.legend()
 
 import tikzplotlib
