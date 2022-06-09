@@ -2,7 +2,6 @@
 
 ## Tables des Matières
 
-* [Le Recueil des Exercices Classiques de Mathématiques](#le-recueil-des-exercices-classiques-de-mathématiques)
 * [A316667 - The Trapped Knight](#a316667---the-trapped-knight)
 * [Diagramme sur les suites et les séries de fonctions](#diagramme-sur-les-suites-et-les-séries-de-fonctions)
 * [Fonctions continues nulle part dérivables](#fonctions-continues-nulle-part-dérivables)
@@ -11,10 +10,6 @@
 * [Hitomezashi Stitch Patterns](#hitomezashi-stitch-patterns)
 * [Marche aléatoire](#marche-aléatoire)
 * [Space Filling Curves](#space-filling-curves)
-
-## Le Recueil des Exercices Classiques de Mathématiques
-
-Lien: https://www.overleaf.com/read/ydhnzxprjkqb
 
 ## A316667 - The Trapped Knight
 
