@@ -3,6 +3,7 @@
 ## Tables des Matières
 
 * [A316667 - The Trapped Knight](#a316667---the-trapped-knight)
+* [Courbe du dragon](courbe-du-dragon)
 * [Diagramme sur les suites et les séries de fonctions](#diagramme-sur-les-suites-et-les-séries-de-fonctions)
 * [Fonctions continues nulle part dérivables](#fonctions-continues-nulle-part-dérivables)
   * [Courbe de Bolzano-Lebesgue](#courbe-de-bolzano-lebesgue)
@@ -17,6 +18,19 @@ Lien:
 [The Trapped Knight - Numberphile](https://www.youtube.com/watch?v=RGQe8waGJ4w)
 
 <center><img src="https://github.com/armandwayoff/maths/blob/main/A316667%20-%20The%20Trapped%20Knight/A316667.jpeg" alt="A316667" width="500" align="center"/></center>
+
+## Courbe du dragon
+
+Liens:
+- [Dragon curve - Wikipedia](https://en.wikipedia.org/wiki/Dragon_curve)
+- [Dragon Curve - Numberphile](https://www.youtube.com/watch?v=wCyC-K_PnRY)
+- [Wrong Turn on the Dragon - Numberphile](https://www.youtube.com/watch?v=v678Em6qyzk)
+
+J'ai utilisé la bibliothèque [```turtle```](https://github.com/PythonTurtle/PythonTurtle) pour tracer la courbe.
+
+Ci-dessous la *courbe du dragon* d'ordre 10.
+
+<center><img src="https://github.com/armandwayoff/Maths/blob/main/Courbe%20du%20dragon/courbe_du_dragon_10.png" alt="courbe du dragon" width="500" align="center"/></center>
 
 ## Diagramme sur les suites et les séries de fonctions
 
