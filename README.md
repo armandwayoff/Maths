@@ -4,13 +4,13 @@
 
 * [A316667 - The Trapped Knight](#a316667---the-trapped-knight)
 * [Courbe du dragon](#courbe-du-dragon)
+* [Courbes remplissantes](#courbes-remplissantes)
 * [Diagramme sur les suites et les séries de fonctions](#diagramme-sur-les-suites-et-les-séries-de-fonctions)
 * [Fonctions continues nulle part dérivables](#fonctions-continues-nulle-part-dérivables)
   * [Courbe de Bolzano-Lebesgue](#courbe-de-bolzano-lebesgue)
   * [Courbe du blanc-manger](#courbe-du-blanc-manger)
 * [Hitomezashi Stitch Patterns](#hitomezashi-stitch-patterns)
 * [Marche aléatoire](#marche-aléatoire)
-* [Space Filling Curves](#space-filling-curves)
 
 ## A316667 - The Trapped Knight
 
@@ -31,6 +31,15 @@ J'ai utilisé la bibliothèque [```turtle```](https://github.com/PythonTurtle/Py
 Ci-dessous la *courbe du dragon* d'ordre 10.
 
 <center><img src="https://github.com/armandwayoff/Maths/blob/main/Courbe%20du%20dragon/courbe_du_dragon_10.png" alt="courbe du dragon" width="500" align="center"/></center>
+
+## Courbes remplissantes
+
+Lien:
+[Fractal charm: Space filling curves](https://www.youtube.com/watch?v=RU0wScIj36o)
+
+Courbe de Hilbert d'ordre 5:
+
+<center><img src="https://github.com/armandwayoff/maths/blob/main/Courbes%20remplissantes/hilbert5.jpeg" alt="hilbert5" height="500" align="center"/></center>
 
 ## Diagramme sur les suites et les séries de fonctions
 
@@ -56,12 +65,3 @@ Lien:
 ## Marche aléatoire
 
 <center><img src="Marche%20aléatoire/N=10^6.png" alt="N=10^6" height="300" align="center"/></center>
-
-## Space Filling Curves
-
-Lien:
-[Fractal charm: Space filling curves](https://www.youtube.com/watch?v=RU0wScIj36o)
-
-Courbe de Hilbert:
-
-<center><img src="https://github.com/armandwayoff/maths/blob/main/Space%20Filling%20Curves/hilbert5.jpeg" alt="hilbert5" height="500" align="center"/></center>
