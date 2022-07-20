@@ -4,6 +4,8 @@
 
 * [A316667 - The Trapped Knight](#a316667---the-trapped-knight)
 * [Courbe du dragon](#courbe-du-dragon)
+  * [Version ```turtle```]()
+  * [Version vectorielle]()
 * [Courbes remplissantes](#courbes-remplissantes)
 * [Fonctions continues nulle part dérivables](#fonctions-continues-nulle-part-dérivables)
   * [Courbe de Bolzano-Lebesgue](#courbe-de-bolzano-lebesgue)
@@ -13,24 +15,63 @@
 
 ## A316667 - The Trapped Knight
 
-Lien:
+### Lien:
 [The Trapped Knight - Numberphile](https://www.youtube.com/watch?v=RGQe8waGJ4w)
 
 <center><img src="https://github.com/armandwayoff/maths/blob/main/A316667%20-%20The%20Trapped%20Knight/A316667.jpeg" alt="A316667" width="500" align="center"/></center>
 
 ## Courbe du dragon
 
-Liens:
+### Liens:
 - [Dragon curve - Wikipedia](https://en.wikipedia.org/wiki/Dragon_curve)
 - [Dragon Curve - Numberphile](https://www.youtube.com/watch?v=wCyC-K_PnRY)
 - [Wrong Turn on the Dragon - Numberphile](https://www.youtube.com/watch?v=v678Em6qyzk)
 
-J'ai utilisé la bibliothèque [```turtle```](https://github.com/PythonTurtle/PythonTurtle) pour tracer la courbe.
+### Version ```turtle```
+
+La bibliothèque [```turtle```](https://github.com/PythonTurtle/PythonTurtle).
 
 Ci-dessous la *courbe du dragon* d'ordre 10.
 
 <center><img src="https://github.com/armandwayoff/Maths/blob/main/Courbe%20du%20dragon/courbe_du_dragon_10.png" alt="courbe du dragon" width="500" align="center"/></center>
 
+### Version vectorielle
+On pose que $0$ représente une rotation vers le droite et $1$ une rotation vers la gauche.
+
+Soit $X_0$ le vecteur d'initialisation (à détailler) de la courbe.
+
+Soient $n \in \mathbb{N}^\star$ et $\mathscr{R}_n$ la suite composée de $0$ et de $1$ correspondant aux virages de le courbe du dragon d'ordre $n$.
+
+On trouve aisément que $|\mathscr{R}_n| = 2^n-1$.
+
+Par exemple, $\mathscr{R}_1 = (1)$, $\mathscr{R}_2 = (1, 1, 0)$, $\mathscr{R}_3 = (1, 1, 0, 1, 1, 0, 0)$.
+
+On pose
+
+$$
+R_0 := 
+\begin{pmatrix}
+0 & 1 \\
+-1 & 0
+\end{pmatrix}
+\quad 
+R_1 :=
+\begin{pmatrix}
+0 & -1 \\
+1 & 0
+\end{pmatrix}.
+$$
+
+Soit $k \in \\{1, \dots, 2^n - 1 \\}$. Soit $(X_k)$ la suite des ...
+$$X_{k+1} = R_{\mathscr{R}_n[k]} X_k.$$
+
+D'où 
+
+$$X_k = \left( \prod_{i=1}^{k-1} R_{\mathscr{R}_n[i]} \right) X_0.$$
+
+On note $\mathscr{X}$ l'ensemble des vecteurs positions des changements de direction de la courbe.
+
+$$\mathscr{X} = \left \\{ \sum_{i=1}^j X_i,\ j \in \\{1, \dots, 2^n-1 \\} \right \\}.$$
 ## Courbes remplissantes
 
 Lien:
