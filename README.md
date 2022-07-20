@@ -40,7 +40,7 @@ On pose que $0$ représente une rotation vers le droite et $1$ une rotation vers
 
 Soit $X_0$ le vecteur d'initialisation (à détailler) de la courbe.
 
-Soient $n \in \mathbb{N}^\star$ et $\mathscr{R}_n$ la suite composée de $0$ et de $1$ correspondant aux virages de le courbe du dragon d'ordre $n$.
+Soient $n \in \mathbb{N}^\star$ et $\mathscr{R}_n$ la suite composée de $0$ et de $1$ correspondant aux virages de la courbe du dragon d'ordre $n$.
 
 On trouve aisément que $|\mathscr{R}_n| = 2^n-1$.
 
@@ -62,19 +62,20 @@ R_1 :=
 \end{pmatrix}.
 $$
 
-Soit $k \in \\{1, \dots, 2^n - 1 \\}$. Soit $(X_k)$ la suite des ...
+Soit $(X_k)$ la suite des ... Soit $k \in \\{0, \dots, 2^n - 1 \\}$,
 $$X_{k+1} = R_{\mathscr{R}_n[k]} X_k.$$
 
 D'où 
 
-$$X_k = \left( \prod_{i=1}^{k-1} R_{\mathscr{R}_n[i]} \right) X_0.$$
+$$X_k = \left( \prod_{i=0}^{k-1} R_{\mathscr{R}_n[i]} \right) X_0.$$
 
 On note $\mathscr{X}$ l'ensemble des vecteurs positions des changements de direction de la courbe.
 
-$$\mathscr{X} = \left \\{ \sum_{i=1}^j X_i,\ j \in \\{1, \dots, 2^n-1 \\} \right \\}.$$
+$$\mathscr{X} = \left \\{ \sum_{i=0}^j X_i,\ j \in \\{0, \dots, 2^n-1 \\} \right \\}.$$
+
 ## Courbes remplissantes
 
-Lien:
+### Lien:
 [Fractal charm: Space filling curves](https://www.youtube.com/watch?v=RU0wScIj36o)
 
 Courbe de Hilbert d'ordre 5:
@@ -93,7 +94,7 @@ Courbe de Hilbert d'ordre 5:
 
 ## Hitomezashi Stitch Patterns
 
-Lien:
+### Lien:
 [Hitomezashi Stitch Patterns - Numberphile](https://www.youtube.com/watch?v=JbfhzlMk2eY)
 
 <center><img src="https://github.com/armandwayoff/maths/blob/main/Hitomezashi%20Stitch%20Patterns/hitomezashi_50.png" alt="hitomezashi_50" width="500" align="center"/></center>
