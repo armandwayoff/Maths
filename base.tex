@@ -1,0 +1,223 @@
+\usepackage{fancyhdr}
+\usepackage{amsfonts} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{stmaryrd}
+\usepackage{mathrsfs}
+\usepackage{enumitem}
+\usepackage{xurl}
+\usepackage[dvipsnames]{xcolor}
+
+\newenvironment{preuve}
+  {\begin{proof}[\textbf{\blacksquare\ \textsc{Démonstration.}}]}
+  {\end{proof}}
+  
+\newenvironment{elem_preuve}
+  {\begin{proof}[\textbf{\blacksquare\ \textsc{Éléments de démonstration.}}]}
+  {\end{proof}}
+
+\newenvironment{solution}
+  {\renewcommand\qedsymbol{$\lhd$}\begin{proof}[\blacktriangleright \textbf{\textsc{Solution.}}]}
+  {\end{proof}}
+
+\newenvironment{elem_sol}
+  {\renewcommand\qedsymbol{$\lhd$}\begin{proof}[\blacktriangleright \textbf{\textsc{Éléments de solution.}}]}
+  {\end{proof}}
+
+\usepackage[most]{tcolorbox}
+
+\newtcolorbox[auto counter,number within=chapter]{defi}[1][]{%
+  enhanced jigsaw, % better frame drawing
+  borderline west={2pt}{0pt}{YellowOrange}, % straight vertical line at the left edge
+  sharp corners, % No rounded corners
+  boxrule=0pt, % no real frame,
+  fonttitle={\bfseries},
+  % colback=YellowOrange!10!white,
+  colback=white,
+  coltitle={YellowOrange},  % Black colour for title
+  title={Définition \thetcbcounter.\ },  % Fixed title
+  attach title to upper, % Move the title into the box
+  #1
+}
+
+\newtcolorbox[auto counter,number within=chapter]{theo}[1][]{%
+  enhanced jigsaw, % better frame drawing
+  borderline west={2pt}{0pt}{RoyalBlue}, % straight vertical line at the left edge
+  sharp corners, % No rounded corners
+  boxrule=0pt, % no real frame,
+  fonttitle=\bfseries,
+  % fontupper=\slshape,
+  % colback=RoyalBlue!10!white,
+  colback=white,
+  coltitle={RoyalBlue},  % Black colour for title
+  title={Théorème \thetcbcounter.\ },  % Fixed title
+  attach title to upper, % Move the title into the box
+  #1
+}
+
+\newtcolorbox[auto counter,number within=chapter]{prop}[1][]{%
+  enhanced jigsaw, % better frame drawing
+  borderline west={2pt}{0pt}{RoyalBlue}, % straight vertical line at the left edge
+  sharp corners, % No rounded corners
+  boxrule=0pt, % no real frame,
+  fonttitle={\bfseries},
+  % colback=RoyalBlue!10!white,
+  colback=white,
+  coltitle={RoyalBlue},  % Black colour for title
+  title={Proposition \thetcbcounter.\ },  % Fixed title
+  attach title to upper, % Move the title into the box
+  #1
+}
+
+\newtcolorbox[auto counter,number within=chapter]{corol}[1][]{%
+  enhanced jigsaw, % better frame drawing
+  borderline west={2pt}{0pt}{RoyalBlue}, % straight vertical line at the left edge
+  sharp corners, % No rounded corners
+  boxrule=0pt, % no real frame,
+  fonttitle={\bfseries},
+  % colback=RoyalBlue!10!white,
+  colback=white,
+  coltitle={RoyalBlue},  % Black colour for title
+  title={Corollaire \thetcbcounter.\ },  % Fixed title
+  attach title to upper, % Move the title into the box
+  #1
+}
+
+\newtcolorbox[auto counter,number within=chapter]{lemme}[1][]{%
+  enhanced jigsaw, % better frame drawing
+  borderline west={2pt}{0pt}{RoyalBlue}, % straight vertical line at the left edge
+  sharp corners, % No rounded corners
+  boxrule=0pt, % no real frame,
+  fonttitle={\bfseries},
+  % colback=RoyalBlue!10!white,
+  colback=white,
+  coltitle={RoyalBlue},  % Black colour for title
+  title={Lemme \thetcbcounter.\ },  % Fixed title
+  attach title to upper, % Move the title into the box
+  #1
+}
+
+\newtcolorbox{box_titre}[2][]{
+    lower separated=false,
+    colback=blue!2!white,
+    colframe=gray,
+    colbacktitle=blue!20!white,
+    coltitle=black,
+    enhanced jigsaw,
+    sharp corners,
+    borderline west={2pt}{0pt}{RoyalBlue}, % straight vertical line at the left edge
+    boxrule=0pt, % no real frame,
+    attach boxed title to top left={yshift=-0.1in,xshift=0.15in},
+    boxed title style={boxrule=0pt,colframe=white,},
+title=#2,#1}
+
+\newtcolorbox[auto counter,number within=chapter]{remarque}[1][]{%
+  enhanced jigsaw, % better frame drawing
+  borderline west={2pt}{0pt}{ForestGreen}, % straight vertical line at the left edge
+  sharp corners, % No rounded corners
+  boxrule=0pt, % no real frame,
+  fonttitle={\bfseries},
+  % colback=ForestGreen!10!white,
+  colback=white,
+  coltitle={ForestGreen},  % Black colour for title
+  title={Remarque \thetcbcounter.\ },  % Fixed title
+  attach title to upper, % Move the title into the box
+  #1
+}
+
+\newtcolorbox[auto counter,number within=chapter]{exercice}[1][]{%
+  enhanced jigsaw, % better frame drawing
+  borderline west={2pt}{0pt}{BrickRed}, % straight vertical line at the left edge
+  sharp corners, % No rounded corners
+  boxrule=0pt, % no real frame,
+  fonttitle={\bfseries},
+  % colback=red!10!white,
+  colback=white,
+  coltitle={BrickRed},  % Black colour for title
+  title={Exercice \thetcbcounter.\ },  % Fixed title
+  attach title to upper, % Move the title into the box
+  #1
+}
+
+\newtcolorbox[auto counter,number within=chapter]{methode}[1][]{%
+  enhanced jigsaw, % better frame drawing
+  borderline west={2pt}{0pt}{darkgray}, % straight vertical line at the left edge
+  sharp corners, % No rounded corners
+  boxrule=0pt, % no real frame,
+  fonttitle={\bfseries},
+  colback=white,
+  coltitle={darkgray},  % Black colour for title
+  title={Méthode \thetcbcounter.\ },  % Fixed title
+  attach title to upper, % Move the title into the box
+  #1
+}
+
+
+
+\newcommand{\me}{\mathrm{e}}
+\newcommand{\mi}{\mathrm{i}}
+\newcommand{\mj}{\mathrm{j}} % racine troisième de l'unité
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Rp}{\R_+}
+\renewcommand{\Re}{\R^\star}
+\newcommand{\Rpe}{\Re_+}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Ce}{\C^\star}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\Ke}{\K^\star}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Ne}{\N^\star}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\A}{\mathbb{A}} % Nombres algébriques
+\newcommand{\Premier}{\mathbb{P}} % Nombres premiers
+
+\renewcommand{\d}{\, \mathrm{d}}
+
+% Complexes
+\newcommand{\Reel}{\mathrm{Re}}
+
+% Algèbre
+% \newcommand{\Gl}{\mathscr{G}\kern-0.16em\ell}
+\newcommand{\Gl}{\mathrm{GL}}
+\newcommand{\I}{\mathrm{I}}
+\newcommand{\Id}{\mathrm{Id}}
+\newcommand{\Rg}{\mathrm{Rg}\,}
+\newcommand{\Ker}{\mathrm{Ker}\,}
+\newcommand{\Vect}{\mathrm{Vect}}
+\newcommand{\Sp}{\mathrm{Sp}}
+\newcommand{\M}{\mathscr{M}}
+\newcommand{\Endo}{\mathscr{L}}
+\newcommand{\Trsp}[1]{#1^\top}
+\newcommand{\Inv}[1]{#1^{-1}}
+\renewcommand{\Tr}{\mathrm{Tr}}
+\newcommand{\com}{\mathrm{com}}
+\newcommand{\Mat}{\mathrm{Mat}}
+\newcommand{\Diag}{\mathrm{Diag}}
+
+% Probas
+\newcommand{\E}{\mathbf{E}}
+\newcommand{\V}{\mathbf{V}}
+\renewcommand{\P}{\mathbf{P}}
+
+% Symboles
+%https://tex.stackexchange.com/questions/4216/how-to-typeset-correctly
+% :=
+\newcommand*{\defeq}{\mathrel{\vcenter{\baselineskip0.5ex \lineskiplimit0pt
+                     \hbox{\scriptsize.}\hbox{\scriptsize.}}}%
+                     =}
+
+% https://tex.stackexchange.com/questions/349747/equivalence-of-sequence-sim-with-some-text-under      
+\newcommand{\isEquivTo}[1]{%
+  \mathpalette\isEquivToInner{#1}%
+}
+\newcommand{\isEquivToInner}[2]{%
+  \ifx#1\displaystyle
+    \underset{#2}{\sim}
+  \else
+    \sim_{#2}
+  \fi
+}
