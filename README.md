@@ -86,6 +86,23 @@ Courbe de Hilbert d'ordre 5:
 
 ### Courbe de Bolzano-Lebesgue
 
+$$
+f(x) :=
+\begin{cases} 
+\frac{2}{3}f(3x) &\text{si } x \in \left[0, \frac{1}{3} \right] \\
+\frac{2}{3} - \frac{1}{3}f(3x-1) &\text{si } x \in \left[ \frac{1}{3}, \frac{2}{3} \right] \\
+\frac{1}{3} + \frac{2}{3}f(3x-2) &\text{si } x \in \left[\frac{2}{3}, 1 \right]
+\end{cases}.
+$$
+
+Une autre définition:
+
+on pose $I := [0, 1]$ et $(f_n)$ la suite de fonctions définie par
+
+- $f_0(x) = x$,
+- $f_n$ est affine sur $\left[ \frac{k}{3^n}, \frac{k+1}{3^n}\right]$ pour tout $k \in \\{ 0, \dots, 3^n-1 \\}$,
+- $f_n$ et $f_{n-1}$ sont égales en $\frac{3k}{3^n}$, $\frac{3k+1}{3^n}$, $\frac{3k+2}{3^n}$ pour tout $k \in \\{0, \dots, 3^n-1 \\}$.
+
 <center><img src="https://github.com/armandwayoff/maths/blob/main/Fonctions%20continues%20nulle%20part%20d%C3%A9rivables/bolzano_lebesgue_8.png" alt="bolzano_lebesgue" width="500" align="center"/></center>
 
 ### Courbe du blanc-manger
