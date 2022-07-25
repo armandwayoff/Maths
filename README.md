@@ -36,42 +36,6 @@ Ci-dessous la *courbe du dragon* d'ordre 10.
 <center><img src="https://github.com/armandwayoff/Maths/blob/main/Courbe%20du%20dragon/courbe_du_dragon_10.png" alt="courbe du dragon" width="500" align="center"/></center>
 
 ### Version vectorielle
-On pose que $0$ représente une rotation vers le droite et $1$ une rotation vers la gauche.
-
-Soit $X_0$ le vecteur d'initialisation (à détailler) de la courbe.
-
-Soient $n \in \mathbb{N}^\star$ et $\mathscr{R}_n$ la suite composée de $0$ et de $1$ correspondant aux virages de la courbe du dragon d'ordre $n$.
-
-On trouve aisément que $|\mathscr{R}_n| = 2^n-1$.
-
-Par exemple, $\mathscr{R}_1 = (1)$, $\mathscr{R}_2 = (1, 1, 0)$, $\mathscr{R}_3 = (1, 1, 0, 1, 1, 0, 0)$.
-
-On pose
-
-$$
-R_0 := 
-\begin{pmatrix}
-0 & 1 \\
--1 & 0
-\end{pmatrix}
-\quad 
-R_1 :=
-\begin{pmatrix}
-0 & -1 \\
-1 & 0
-\end{pmatrix}.
-$$
-
-Soit $(X_k)$ la suite des ... Soit $k \in \\{0, \dots, 2^n - 1 \\}$,
-$$X_{k+1} = R_{\mathscr{R}_n[k]} X_k.$$
-
-D'où 
-
-$$X_k = \left( \prod_{i=0}^{k-1} R_{\mathscr{R}_n[i]} \right) X_0.$$
-
-On note $\mathscr{X}$ l'ensemble des vecteurs positions des changements de direction de la courbe.
-
-$$\mathscr{X} = \left \\{ \sum_{i=0}^j X_i,\ j \in \\{0, \dots, 2^n-1 \\} \right \\}.$$
 
 ## Courbes remplissantes
 
