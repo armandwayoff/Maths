@@ -37,6 +37,8 @@ Ci-dessous la *courbe du dragon* d'ordre 10.
 
 ### Version vectorielle
 
+[à compléter]
+
 ## Courbes remplissantes
 
 ### Lien:
